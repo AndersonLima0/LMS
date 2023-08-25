@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canções da Noite</title>
+  </head>
+  <body>
+    <h1>Canções da Noite e sua melhores músicas(soundtracks)</h1>
+
+    <section>
+      <ul>
+        <li><a href="https://youtu.be/TX4w26orgdY">A que mais gosto</a></li>
+        <li>
+          <a href="https://youtu.be/Hs32OvXp2CA">essa tá em segundo lugar</a>
+        </li>
+        <li>
+          <p>e essa está em terceiro</p>
+          <a href="https://youtu.be/kUSXKA9tupw">
+            <img
+              width="25%"
+              src="assets/img.webp"
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="table">
+      <table border="1px">
+        <thead>
+          <th>Curiosidades</th>
+        </thead>
+        <tr>
+          <td><b>Kotoyama</b></td>
+        </tr>
+        <tr>
+          <td>
+            Call of the Night é uma série de mangá japonesa escrita e ilustrada por Kotoyama.
+          </td>
+        </tr>
+        <tr>
+          <td><b>O anúncio revela que a primeira parte da série contará com 13 episódios</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Os elementos <br> e <hr> são usados para criar espaço em branco e linhas horizontais, respectivamente, para separar visualmente diferentes seções da página.-->
+    <br></br>
+    <hr>
+    <br/>
+
+    <!-- Início da seção de formulário -->
+    <article style="width: 100%; align-items: center; display: flex; justify-content: center;">
+        
+        <!--Formulario básico com algumas perguntas pessoais-->
+        <form method="get" action="https://www.w3schools.com/action_page.php.">
+            <h2>Perguntas sobre você 😎</h2>
+            <label>Qual seu nome?</label><br>
+            <input type="text" name="nome" maxlength="15"/><br><br>
+
+            <!-- Campo para inserir o país de origem (valor pré-definido como "Brasil") -->
+            <label>Qual seu país de origem?</label><br>
+            <input type="text" name="país" readonly value="Brasil"/><br><br>
+            
+            <!-- Campo numérico para uma pergunta desconhecida até pra mim -->
+            <label>Não consegui pensar em nada para isso 😅</label><br>
+            <input type="number" min="25000" maxlength="30000"/><br><br>
+
+            <!--Utilizando radio-->
+            <label>Qual sua escolaridade?</label><br>
+            <input type="radio" id="fundamental" name="nivel" value="fundamental"/>
+            <label for="fundamental">Ensino fundamental</label><br>
+            <input type="radio" id="medio" name="nivel" value="medio"/>
+            <label for="medio">Ensino Medio</label><br>
+            <input type="radio" id="superior" name="nivel" value="superior"/>
+            <label for="superior">Ensino Superior</label><br><br>
+
+            <!--Utilizando checkbox-->
+            <label>Qual genêro de filmes/animes/series você mais gosta</label><br>
+            <input
+                type="checkbox"
+                id="acao"/>
+            <label for="acao">Ação</label><br>
+            <input
+                type="checkbox"
+                id="terror"/>
+            <label for="terror">Terror</label><br>
+            <input
+                type="checkbox"
+                id="romance"/>
+            <label for="romance">Romance</label><br>
+            <input
+                type="checkbox"
+                id="comedia"/>
+            <label for="comedia">Comédia</label><br>
+            
+        </form>
+
+    </article>
+  </body>
+</html>
